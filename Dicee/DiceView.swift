@@ -13,6 +13,7 @@ struct DiceView: View {
         Image("dice\(n)")
             .resizable()
             .aspectRatio(contentMode: .fit)
+            .shadow(radius: 8)
             .padding()
     }
 }

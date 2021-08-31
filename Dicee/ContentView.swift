@@ -28,12 +28,13 @@ struct ContentView: View {
                     rightDiceNumber = Int.random(in: 1...6)
                 }) {
                     Text("Roll")
-                        .font(.system(size: 50))
-                        .fontWeight(.bold)
+                        .font(.system(size: 40))
+                        .fontWeight(.heavy)
                         .foregroundColor(.white)
                         .padding(.horizontal)
                 }
                 .background(Color.red)
+                .shadow(radius: 7)
             }
         }
     }
